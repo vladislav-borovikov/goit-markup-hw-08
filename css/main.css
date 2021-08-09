@@ -1343,14 +1343,14 @@ svg {
 @media screen and (min-width: 768px) {
   .portfolio-block {
     display: flex;
-    flex-basis: calc((100% - 30px) / 2);
+    flex-basis: calc((100% - 60px) / 2);
     flex-direction: column;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .portfolio-block {
-    flex-basis: calc((100% - 60px) / 3);
+    flex-basis: calc((100% - 90px) / 3);
   }
 }
 
