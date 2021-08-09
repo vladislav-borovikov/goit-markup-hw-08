@@ -1,0 +1,101 @@
+.our-team{
+    background-color: #F5F4FA;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+        @media screen and (min-width: 1200px){
+            padding-top: 94px;
+        }
+
+}
+.team-list{
+    //display: flex;
+     padding-top: 50px;
+    padding-bottom: 94px;
+   
+    margin-top: -30px;
+     @media screen and (min-width: 768px){
+          display: flex;
+          flex-wrap: wrap;
+          margin-left: -30px;
+     }
+     @media screen and (min-width: 1200px){
+         flex-wrap: nowrap;
+     }
+}
+
+
+.team-list-paragraph {
+    flex-basis: auto;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    
+    margin-top: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2); 
+    background-color: #FFFFFF;
+        @media screen and (min-width: 768px){
+          display: flex;
+          flex-wrap: wrap;
+          flex-basis: calc((100% - 60px) / 2);
+          margin-left: 30px;
+      }
+      @media screen and (min-width: 1200px){
+          flex-basis: calc((100% - 120px) / 4);
+          margin-top: 50px;
+      }
+    
+}
+.team{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--names-links-color);
+
+         @media screen and (min-width: 1200px){
+             font-size: 36px;
+         }
+
+}
+
+.team-names{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--names-links-color);
+    margin-bottom: 10px;
+}
+
+.team-position {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+     text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--names-adress-discriptions);
+}
+
+.team-discription{
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    padding-right: 32px;
+    padding-left: 32px; 
+}
+.social-list-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color:  #AFB1B8;
+    margin: auto;
+}
+
+

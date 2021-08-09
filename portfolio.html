@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__section section container">
+            <nav class="header__navigation-section">
+                <a href="./index.html" class="logo link"><span class="logo__firs-part">Web</span><span
+                        class="logo__sacond-part">Studio</span></a>
+                <ul class="header__navigation-list link list">
+                    <li class="header__link"><a href="./index.html" class="navigation link animation"> Студия</a>
+                    </li>
+                    <li class="header__link"><a href="./portfolio.html"
+                            class="navigation link animation underline">Портфолио</a></li>
+                    <li class="header__link"><a href="" class="navigation link animation">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="contacts list">
+                <li class="header__contact-object mail">
+                    <a href="mailto:info@devstudio.com" class="header__contacts-link link animation">
+                        <svg class="email-logo" width="16px" height="12px">
+                            <use href="./imeges/sprite.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li class=" header__contact-object tell"><a href=tel:+380961111111
+                        class="header__contacts-link link animation">
+                        <svg class="email-logo" width="10px" height="16px">
+                            <use href="./imeges/sprite.svg#icon-smartphone"></use>
+                        </svg>
+                        +38 096 111 11 11
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="portfolio-main-section">
+        <h1 class="portfolio-title" hidden>Портфолио</h1>
+        <section class="portfolio-filtr-section  container">
+            <ul class="portfolio-filtr-list list">
+                <li><button type="button" class="portfolio-filtr animation">Все</button></li>
+                <li><button type="button" class="portfolio-filtr animation">Веб-сайты</button></li>
+                <li><button type="button" class="portfolio-filtr animation">Приложения</button></li>
+                <li><button type="button" class="portfolio-filtr animation">Дизайн</button></li>
+                <li><button type="button" class="portfolio-filtr animation">Маркетинг</button></li>
+            </ul>
+        </section>
+        <section class="portfolio-list-section">
+            <ul class="portfolio-list list">
+                <li class="portfolio-block">
+                    <a href="#" class="portfolio-link link">
+                        <div class="team-list-wraper">
+                            <picture>
+                                <source media="(min-widht: 1200px)"
+                                    srcset="./imeges/deckstope/portfolio/img.jpg 1x, ./imeges/deckstope/portfolio/img@2x.jpg 2x">
+                                <source media="(min-widht: 1200px)"
+                                    srcset="./imeges/deckstope/portfolio/img.webp 1x, ./imeges/deckstope/portfolio/img@2x.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-widht: 768px)"
+                                    srcset="./imeges/tablet/portfolio/img.jpg 1x, ./imeges/tablet/portfolio/img@2x.jpg 2x">
+                                <source media="(min-widht: 768px)"
+                                    srcset="./imeges/tablet/portfolio/img.webp 1x, ./imeges/tablet/portfolio/img@2x.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-widht: 320px)"
+                                    srcset="./imeges/mobile/portfolio/img.jpg 1x, ./imeges/mobile/portfolio/img@2x.jpg 2x">
+                                <source media="(min-widht: 320px)"
+                                    srcset="./imeges/mobile/portfolio/img.webp 1x, ./imeges/mobile/portfolio/img@2x.webp 2x"
+                                    type="image/webp">
+                                <img src="#" alt="ноутбук">
+                            </picture>
+
+                            <p class="overlay">Технокряк это современная площадка распространения коронавируса. Компании
+                                используют эту
+                                платформу для цифрового
+                                шпионажа и атак на защищённые сервера конкурентов.</p>
+                        </div>
+                        <div class="portfolio-text">
+                            <h2 class="portfolio-list-title">Технокряк</h2>
+                            <p class="portfolio-discription">Веб-сайт</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-block">
+                    <a href="#" class="portfolio-link link">
+                        <div class="team-list-wraper">
+                            <picture>
+                                <source media="(min-widht: 1200px)"
+                                    srcset="./imeges/deckstope/portfolio/img-1.jpg 1x, ./imeges/deckstope/portfolio/img-1@2x.jpg 2x">
+                                <source media="(min-widht: 1200px)"
+                                    srcset="./imeges/deckstope/portfolio/img-1.webp 1x, ./imeges/deckstope/portfolio/img-1@2x.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-widht: 768px)"
+                                    srcset="./imeges/tablet/portfolio/img-1.jpg 1x, ./imeges/tablet/portfolio/img-1@2x.jpg 2x">
+                                <source media="(min-widht: 768px)"
+                                    srcset="./imeges/tablet/portfolio/img-1.webp 1x, ./imeges/tablet/portfolio/img-1@2x.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-widht: 320px)"
+                                    srcset="./imeges/mobile/portfolio/img-1.jpg 1x, ./imeges/mobile/portfolio/img-1@2x.jpg 2x">
+                                <source media="(min-widht: 320px)"
+                                    srcset="./imeges/mobile/portfolio/img-1.webp 1x, ./imeges/mobile/portfolio/img-1@2x.webp 2x"
+                                    type="image/webp">
+                                <img src="" alt="баскетболисты">
+                            </picture>
+
+                            <p class="overlay"></p>
+                        </div>
+                        <div class="portfolio-text">
+                            <h2 class="portfolio-list-title">Постер New Orlean vs Golden Star</h2>
+                            <p class="portfolio-discription">Дизайн</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-block">
+                    <a href="#" class="portfolio-link link">
+                        <div class="team-list-wraper">
+                            <picture>
+                                <source media="(min-widht: 1200px)"
+                                    srcset="./imeges/deckstope/portfolio/img-2.jpg 1x, ./imeges/deckstope/portfolio/img-2@2x.jpg 2x">
+                                <source media="(min-widht: 1200px)"
+                                    srcset="./imeges/deckstope/portfolio/img-2.webp 1x, ./imeges/deckstope/portfolio/img-2@2x.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-widht: 768px)"
+                                    srcset="./imeges/tablet/portfolio/img-2.jpg 1x, ./imeges/tablet/portfolio/img-2@2x.jpg 2x">
+                                <source media="(min-widht: 768px)"
+                                    srcset="./imeges/tablet/portfolio/img-2.webp 1x, ./imeges/tablet/portfolio/img-2@2x.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-widht: 320px)"
+                                    srcset="./imeges/mobile/portfolio/img-2.jpg 1x, ./imeges/mobile/portfolio/img-2@2x.jpg 2x">
+                                <source media="(min-widht: 320px)"
+                                    srcset="./imeges/mobile/portfolio/img-2.webp 1x, ./imeges/mobile/portfolio/img-2@2x.webp 2x"
+                                    type="image/webp">
+                                <img src="#" alt="логотип ресторана">
+                            </picture>
+                            <p class="overlay"></p>
+                        </div>
+                        <div class="portfolio-text">
+                            <h2 class="portfolio-list-title">Ресторан Seafood</h2>
+                            <p class="portfolio-discription">Приложение</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-block">
+                    <a href="#" class="portfolio-link link">
+                        <div class="team-list-wraper">
+                            <picture>
+                                <source media="(min-widht: 1200px)"
+                                    srcset="./imeges/deckstope/portfolio/img-3.jpg 1x, ./imeges/deckstope/portfolio/img-3@2x.jpg 2x">
+                                <source media="(min-widht: 1200px)"
+                                    srcset="./imeges/deckstope/portfolio/img-3.webp 1x, ./imeges/deckstope/portfolio/img-3@2x.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-widht: 768px)"
+                                    srcset="./imeges/tablet/portfolio/img-3.jpg 1x, ./imeges/tablet/portfolio/img-3@2x.jpg 2x">
+                                <source media="(min-widht: 768px)"
+                                    srcset="./imeges/tablet/portfolio/img-3.webp 1x, ./imeges/tablet/portfolio/img-3@2x.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-widht: 320px)"
+                                    srcset="./imeges/mobile/portfolio/img-3.jpg 1x, ./imeges/mobile/portfolio/img-3@2x.jpg 2x">
+                                <source media="(min-widht: 320px)"
+                                    srcset="./imeges/mobile/portfolio/img-3.webp 1x, ./imeges/mobile/portfolio/img-3@2x.webp 2x"
+                                    type="image/webp">
+                                <img src="#" alt="наушники">
+                            </picture>
+                            <p class="overlay"></p>
+                        </div>
+                        <div class="portfolio-text">
+                            <h2 class="portfolio-list-title">Проект Prime</h2>
+                            <p class="portfolio-discription">Маркетинг</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-block">
+                    <a href="#" class="portfolio-link link">
+                        <div class="team-list-wraper">
+                            <picture>
+                                <source media="(min-widht: 1200px)"
+                                    srcset="./imeges/deckstope/portfolio/img-4.jpg 1x, ./imeges/deckstope/portfolio/img-4@2x.jpg 2x">
+                                <source media="(min-widht: 1200px)"
+                                    srcset="./imeges/deckstope/portfolio/img-4.webp 1x, ./imeges/deckstope/portfolio/img-4@2x.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-widht: 768px)"
+                                    srcset="./imeges/tablet/portfolio/img-4.jpg 1x, ./imeges/tablet/portfolio/img-4@2x.jpg 2x">
+                                <source media="(min-widht: 768px)"
+                                    srcset="./imeges/tablet/portfolio/img-4.webp 1x, ./imeges/tablet/portfolio/img-4@2x.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-widht: 320px)"
+                                    srcset="./imeges/mobile/portfolio/img-4.jpg 1x, ./imeges/mobile/portfolio/img-4@2x.jpg 2x">
+                                <source media="(min-widht: 320px)"
+                                    srcset="./imeges/mobile/portfolio/img-4.webp 1x, ./imeges/mobile/portfolio/img-4@2x.webp 2x"
+                                    type="image/webp">
+                                <img src="#" alt="коробки">
+                            </picture>
+
+                            <p class="overlay"></p>
+                        </div>
+                        <div class="portfolio-text">
+                            <h2 class="portfolio-list-title">Проект Boxes</h2>
+                            <p class="portfolio-discription">Приложение</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-block">
+                    <a href="#" class="portfolio-link link">
+                        <div class="team-list-wraper">
+                            <picture>
+                                <source media="(min-widht: 1200px)"
+                                    srcset="./imeges/deckstope/portfolio/img-5.jpg 1x, ./imeges/deckstope/portfolio/img-5@2x.jpg 2x">
+                                <source media="(min-widht: 1200px)"
+                                    srcset="./imeges/deckstope/portfolio/img-5.webp 1x, ./imeges/deckstope/portfolio/img-5@2x.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-widht: 768px)"
+                                    srcset="./imeges/tablet/portfolio/img-5.jpg 1x, ./imeges/tablet/portfolio/img-5@2x.jpg 2x">
+                                <source media="(min-widht: 768px)"
+                                    srcset="./imeges/tablet/portfolio/img-5.webp 1x, ./imeges/tablet/portfolio/img-5@2x.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-widht: 320px)"
+                                    srcset="./imeges/mobile/portfolio/img-5.jpg 1x, ./imeges/mobile/portfolio/img-5@2x.jpg 2x">
+                                <source media="(min-widht: 320px)"
+                                    srcset="./imeges/mobile/portfolio/img-5.webp 1x, ./imeges/mobile/portfolio/img-5@2x.webp 2x"
+                                    type="image/webp">
+                                <img src="#" alt="монитор">
+                            </picture>
+                            <p class="overlay"></p>
+                        </div>
+                        <div class="portfolio-text">
+                            <h2 class="portfolio-list-title">Inspiration has no Borders</h2>
+                            <p class="portfolio-discription">Веб-сайт</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-block">
+                    <a href="#" class="portfolio-link link">
+                        <div class="team-list-wraper">
+                            <picture>
+                                <source media="(min-widht: 1200px)"
+                                    srcset="./imeges/deckstope/portfolio/img-6.jpg 1x, ./imeges/deckstope/portfolio/img-6@2x.jpg 2x">
+                                <source media="(min-widht: 1200px)"
+                                    srcset="./imeges/deckstope/portfolio/img-6.webp 1x, ./imeges/deckstope/portfolio/img-6@2x.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-widht: 768px)"
+                                    srcset="./imeges/tablet/portfolio/img-6.jpg 1x, ./imeges/tablet/portfolio/img-6@2x.jpg 2x">
+                                <source media="(min-widht: 768px)"
+                                    srcset="./imeges/tablet/portfolio/img-6.webp 1x, ./imeges/tablet/portfolio/img-6@2x.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-widht: 320px)"
+                                    srcset="./imeges/mobile/portfolio/img-6.jpg 1x, ./imeges/mobile/portfolio/img-6@2x.jpg 2x">
+                                <source media="(min-widht: 320px)"
+                                    srcset="./imeges/mobile/portfolio/img-6.webp 1x, ./imeges/mobile/portfolio/img-6@2x.webp 2x"
+                                    type="image/webp">
+                                <img src="#" alt="журнал">
+                            </picture>
+                            <p class="overlay"></p>
+                        </div>
+                        <div class="portfolio-text">
+                            <h2 class="portfolio-list-title">Издание Limited Edition</h2>
+                            <p class="portfolio-discription">Дизайн</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-block">
+                    <a href="#" class="portfolio-link link">
+                        <div class="team-list-wraper">
+                            <picture>
+                                <source media="(min-widht: 1200px)"
+                                    srcset="./imeges/deckstope/portfolio/img-7.jpg 1x, ./imeges/deckstope/portfolio/img-7@2x.jpg 2x">
+                                <source media="(min-widht: 1200px)"
+                                    srcset="./imeges/deckstope/portfolio/img-7.webp 1x, ./imeges/deckstope/portfolio/img-7@2x.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-widht: 768px)"
+                                    srcset="./imeges/tablet/portfolio/img-7.jpg 1x, ./imeges/tablet/portfolio/img-7@2x.jpg 2x">
+                                <source media="(min-widht: 768px)"
+                                    srcset="./imeges/tablet/portfolio/img-7.webp 1x, ./imeges/tablet/portfolio/img-7@2x.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-widht: 320px)"
+                                    srcset="./imeges/mobile/portfolio/img-7.jpg 1x, ./imeges/mobile/portfolio/img-7@2x.jpg 2x">
+                                <source media="(min-widht: 320px)"
+                                    srcset="./imeges/mobile/portfolio/img-7.webp 1x, ./imeges/mobile/portfolio/img-7@2x.webp 2x"
+                                    type="image/webp">
+                                <img src="#" alt="бирка">
+                            </picture>
+                            <p class="overlay"></p>
+                        </div>
+                        <div class="portfolio-text">
+                            <h2 class="portfolio-list-title">Проект LAB</h2>
+                            <p class="portfolio-discription">Маркетинг</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-block">
+                    <a href="#" class="portfolio-link link">
+                        <div class="team-list-wraper">
+                            <picture>
+                                <source media="(min-widht: 1200px)"
+                                    srcset="./imeges/deckstope/portfolio/img-8.jpg 1x, ./imeges/deckstope/portfolio/img-8@2x.jpg 2x">
+                                <source media="(min-widht: 1200px)"
+                                    srcset="./imeges/deckstope/portfolio/img-8.webp 1x, ./imeges/deckstope/portfolio/img-8@2x.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-widht: 768px)"
+                                    srcset="./imeges/tablet/portfolio/img-8.jpg 1x, ./imeges/tablet/portfolio/img-8@2x.jpg 2x">
+                                <source media="(min-widht: 768px)"
+                                    srcset="./imeges/tablet/portfolio/img-8.webp 1x, ./imeges/tablet/portfolio/img-8@2x.webp 2x"
+                                    type="image/webp">
+                                <source media="(min-widht: 320px)"
+                                    srcset="./imeges/mobile/portfolio/img-8.jpg 1x, ./imeges/mobile/portfolio/img-8@2x.jpg 2x">
+                                <source media="(min-widht: 320px)"
+                                    srcset="./imeges/mobile/portfolio/img-8.webp 1x, ./imeges/mobile/portfolio/img-8@2x.webp 2x"
+                                    type="image/webp">
+                                <img src="#" alt="ноутбук">
+                            </picture>
+                            <p class="overlay"></p>
+                        </div>
+                        <div class="portfolio-text">
+                            <h2 class="portfolio-list-title">Growing Business</h2>
+                            <p class="portfolio-discription">Приложение</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-section container">
+            <div class="footer-adres-block">
+                <a href="./index.html" class="logo link"><span class="logo__firs-part">Web</span><span
+                        class="logo__sacond-part-footer">Studio</span></a>
+                <address>
+                    <ul class="adress-list list">
+                        <li class="adress-paragraph"><a href="https://goo.gl/maps/6ZWjgCVjtTqqigJP6" target="_blank"
+                                rel="noopener noreferrer" class="adress-on-map link">г. Киев,
+                                пр-т Леси Украинки, 26</a></li>
+                        <li class="adress-paragraph"><a href="mailto:info@example.com"
+                                class="mail-footer link">info@example.com</a>
+                        </li>
+                        <li class="adress-paragraph"><a href="tel:+380991111111" class="namber-footer link">+38 099 111
+                                11
+                                11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+
+            <div class="footer-social-list-link">
+                <p class="footer-appeal">присоединяйтесь</p>
+                <ul class="footer-list-link list">
+                    <li>
+                        <a class="social-list-link-box animation" href="">
+                            <svg class="footer-link-logo animation">
+                                <use href="./imeges/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social-list-link-box animation" href="">
+                            <svg class="footer-link-logo">
+                                <use href="./imeges/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social-list-link-box animation" href="">
+                            <svg class="footer-link-logo">
+                                <use href="./imeges/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social-list-link-box animation" href="">
+                            <svg class="footer-link-logo">
+                                <use href="./imeges/sprite.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-form-blok">
+                <p class="footer-appeal">Подпишитесь на рассылку</p>
+                <form action="footer-form">
+                    <input type="email" class="footer-email-input" name="user-email" placeholder="E-mail" required>
+                    <button class="button-subscription">
+                        <span>Подписаться</span>
+                        <svg class="footer-logo-send">
+                            <use href="./imeges/sprite.svg#icon-send"></use>
+                        </svg>
+
+                    </button>
+
+                </form>
+            </div>
+
+        </div>
+    </footer>
+</body>
+<script src="./js/menu.js"></script>
+
+</html>

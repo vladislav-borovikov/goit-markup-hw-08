@@ -1,0 +1,92 @@
+.hero{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding-bottom: 118px ;
+    padding-top: 118px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../imeges/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+        @media screen and (min-width: 1200px) {
+            padding-bottom: 200px ;
+            padding-top: 200px;
+        }
+            @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+            (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px),
+            (min-resolution: 192dpi) and (min-width: 320px),
+            (min-resolution: 2dppx) and (min-width: 320px) {
+                background-image: linear-gradient(
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                url("../imeges/mobile/bg-main.jpg");
+            }
+
+            @media screen and (min-width: 768px) {
+                background-image: linear-gradient(
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)
+                ),
+                url("../imeges/tablet/bg-main.jpg");
+            }
+
+            @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+            (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px),
+            (min-resolution: 192dpi) and (min-width: 1200px),
+            (min-resolution: 2dppx) and (min-width: 1200px) {
+                background-image: linear-gradient(
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+                url("../imeges/deckstope/bg-main.jpg");
+            }
+}
+
+
+.hero__discription {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;  
+        @media screen and (min-width: 1200px) {
+            font-size: 44px;
+            line-height: 1.36;
+        }
+}
+
+.hero__discription-conteyner{
+    width: 100%;
+    @media screen and (min-width: 480px) {
+        width: 360px;
+    }
+    @media screen and (min-width: 1200px) {
+        width: 696px;
+    }
+
+}
+
+ 
+.hero__batton {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background:var(--botton-collor);
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+        &:focus,
+        &:hover {
+            background: #188CE8;
+        }
+}      

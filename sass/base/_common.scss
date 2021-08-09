@@ -1,0 +1,56 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+font-family: Roboto,  sans-serif;
+font-weight: 400 ;
+}
+
+.section {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border: 0px;
+}
+
+svg{
+    padding:0;
+    margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--names-links-color);
+
+}
+
+.list {
+  list-style: none;
+}

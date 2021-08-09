@@ -1,0 +1,19 @@
+.social-list-icon{
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    
+}
+
+.social-list-link:focus,
+.social-list-link:hover{
+    background-color: var(--botton-collor);
+    color: #FFFFFF;
+}
+
+.social-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    
+}
