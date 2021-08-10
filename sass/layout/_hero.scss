@@ -8,38 +8,68 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-        @media screen and (min-width: 1200px) {
-            padding-bottom: 200px ;
-            padding-top: 200px;
-        }
-            @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
-            (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px),
-            (min-resolution: 192dpi) and (min-width: 320px),
-            (min-resolution: 2dppx) and (min-width: 320px) {
-                background-image: linear-gradient(
-                    rgba(47, 48, 58, 0.4),
-                    rgba(47, 48, 58, 0.4)),
-                url("../imeges/mobile/bg-main.jpg");
-            }
 
-            @media screen and (min-width: 768px) {
-                background-image: linear-gradient(
-                    rgba(47, 48, 58, 0.4),
-                    rgba(47, 48, 58, 0.4)
-                ),
-                url("../imeges/tablet/bg-main.jpg");
-            }
-
-            @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
-            (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px),
-            (min-resolution: 192dpi) and (min-width: 1200px),
-            (min-resolution: 2dppx) and (min-width: 1200px) {
-                background-image: linear-gradient(
-                rgba(47, 48, 58, 0.4),
-                rgba(47, 48, 58, 0.4)),
-                url("../imeges/deckstope/bg-main.jpg");
-            }
+  @media screen and (min-width: 1200px) {
+    padding: 200px 0;
+  }
 }
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 480px),
+  screen and (min-resolution: 192dpi) and (min-width: 480px),
+  screen and (min-resolution: 2dppx) and (min-width: 480px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../imeges/mobile/bg-main@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../imeges/tablet/bg-main.jpg);
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../imeges/tablet/bg-main@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../imeges/deckstope/bg-main.jpg);
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+  screen and (min-resolution: 192dpi) and (min-width: 1200px),
+  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../imeges/deckstope/bg-main@2x.jpg);
+  }
+}
+
 
 
 .hero__discription {

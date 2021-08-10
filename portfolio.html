@@ -31,6 +31,11 @@
                     <li class="header__link"><a href="" class="navigation link animation">Контакты</a></li>
                 </ul>
             </nav>
+            <botton class="burger-btn" type="botton" data-menu-open>
+                <svg class="burger">
+                    <use href="./imeges/sprite.svg#icon-burger" class="logo-burger"></use>
+                </svg>
+            </botton>
             <ul class="contacts list">
                 <li class="header__contact-object mail">
                     <a href="mailto:info@devstudio.com" class="header__contacts-link link animation">
@@ -51,6 +56,53 @@
             </ul>
         </div>
     </header>
+    <div class="mobile-menu " data-menu>
+        <div class="conteiner mobile-menu__conteiner">
+            <button class="mobile-menu__close-btn" data-menu-close>
+                <svg class="mobile-menu__close-icon">
+                    <use href="./imeges/sprite.svg#icon-close-x"></use>
+                </svg>
+            </button>
+            <ul class="navigation-mobile list">
+                <li class="navigation-mobile__menu">
+                    <a href="./index.html" class="navigation__link link">Студия</a>
+                </li>
+                <li class="navigation-mobile__menu">
+                    <a href="./portfolio.html" class="navigation__link link">Портфолио</a>
+                </li>
+                <li class="navigation-mobile__menu">
+                    <a href="" class="navigation__link link">Контакти</a>
+                </li>
+            </ul>
+            <ul class="mobil-menu__contact list">
+                <li class="mobile-menu__contact-item ">
+                    <a href=tel:+380961111111
+                        class="header__contacts-link mobile-menu__contact-item-tell link animation">+380961111111
+                    </a>
+                </li>
+                <li class="mobile-menu__contact-item">
+                    <a href="mailto:info@devstudio.com"
+                        class="header__contacts-link mobile-menu__contact-item-mail link animation">info@devstudio.com
+                    </a>
+                </li>
+            </ul>
+            <ul class="mobile-menu__social-list list">
+                <li class="mobile-menu__social-link ">
+                    <a class="mobile-menu_link line-up link" href="#">Instagram</a>
+                </li>
+                <li class="mobile-menu__social-link ">
+                    <a class="mobile-menu_link line-up link" href="#">Twitter</a>
+                </li>
+                <li class="mobile-menu__social-link ">
+                    <a class="mobile-menu_link line-up link" href="#">Facebook</a>
+                </li>
+                <li class="mobile-menu__social-link ">
+                    <a class="mobile-menu_link link" href="#">LinkedIn</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
     <main class="portfolio-main-section">
         <h1 class="portfolio-title" hidden>Портфолио</h1>
         <section class="portfolio-filtr-section  container">
@@ -83,7 +135,7 @@
                                 <source media="(min-widht: 320px)"
                                     srcset="./imeges/mobile/portfolio/img.webp 1x, ./imeges/mobile/portfolio/img@2x.webp 2x"
                                     type="image/webp">
-                                <img src="#" alt="ноутбук">
+                                <img class="portfolio-pic" src="./imeges/portfolio/laptop.jpg" alt="ноутбук">
                             </picture>
 
                             <p class="overlay">Технокряк это современная площадка распространения коронавируса. Компании
@@ -116,7 +168,7 @@
                                 <source media="(min-widht: 320px)"
                                     srcset="./imeges/mobile/portfolio/img-1.webp 1x, ./imeges/mobile/portfolio/img-1@2x.webp 2x"
                                     type="image/webp">
-                                <img src="" alt="баскетболисты">
+                                <img class="portfolio-pic" src="./imeges/portfolio/basketboll.jpg" alt="баскетболисты">
                             </picture>
 
                             <p class="overlay"></p>
@@ -146,7 +198,8 @@
                                 <source media="(min-widht: 320px)"
                                     srcset="./imeges/mobile/portfolio/img-2.webp 1x, ./imeges/mobile/portfolio/img-2@2x.webp 2x"
                                     type="image/webp">
-                                <img src="#" alt="логотип ресторана">
+                                <img class="portfolio-pic" src="./imeges/portfolio/restaurant.jpg"
+                                    alt="логотип ресторана">
                             </picture>
                             <p class="overlay"></p>
                         </div>
@@ -175,7 +228,7 @@
                                 <source media="(min-widht: 320px)"
                                     srcset="./imeges/mobile/portfolio/img-3.webp 1x, ./imeges/mobile/portfolio/img-3@2x.webp 2x"
                                     type="image/webp">
-                                <img src="#" alt="наушники">
+                                <img class="portfolio-pic" src="./imeges/portfolio/headphones.jpg" alt="наушники">
                             </picture>
                             <p class="overlay"></p>
                         </div>
@@ -204,7 +257,7 @@
                                 <source media="(min-widht: 320px)"
                                     srcset="./imeges/mobile/portfolio/img-4.webp 1x, ./imeges/mobile/portfolio/img-4@2x.webp 2x"
                                     type="image/webp">
-                                <img src="#" alt="коробки">
+                                <img class="portfolio-pic" src="./imeges/portfolio/boxes.jpg" alt="коробки">
                             </picture>
 
                             <p class="overlay"></p>
@@ -234,7 +287,7 @@
                                 <source media="(min-widht: 320px)"
                                     srcset="./imeges/mobile/portfolio/img-5.webp 1x, ./imeges/mobile/portfolio/img-5@2x.webp 2x"
                                     type="image/webp">
-                                <img src="#" alt="монитор">
+                                <img class="portfolio-pic" src="./imeges/portfolio/monitor.jpg" alt="монитор">
                             </picture>
                             <p class="overlay"></p>
                         </div>
@@ -263,7 +316,7 @@
                                 <source media="(min-widht: 320px)"
                                     srcset="./imeges/mobile/portfolio/img-6.webp 1x, ./imeges/mobile/portfolio/img-6@2x.webp 2x"
                                     type="image/webp">
-                                <img src="#" alt="журнал">
+                                <img class="portfolio-pic" src="./imeges/portfolio/magazine.jpg" alt="журнал">
                             </picture>
                             <p class="overlay"></p>
                         </div>
@@ -292,7 +345,7 @@
                                 <source media="(min-widht: 320px)"
                                     srcset="./imeges/mobile/portfolio/img-7.webp 1x, ./imeges/mobile/portfolio/img-7@2x.webp 2x"
                                     type="image/webp">
-                                <img src="#" alt="бирка">
+                                <img class="portfolio-pic" src="./imeges/portfolio/tag.jpg" alt="бирка">
                             </picture>
                             <p class="overlay"></p>
                         </div>
@@ -321,7 +374,7 @@
                                 <source media="(min-widht: 320px)"
                                     srcset="./imeges/mobile/portfolio/img-8.webp 1x, ./imeges/mobile/portfolio/img-8@2x.webp 2x"
                                     type="image/webp">
-                                <img src="#" alt="ноутбук">
+                                <img class="portfolio-pic" src="./imeges/portfolio/laptop.jpg" alt="ноутбук">
                             </picture>
                             <p class="overlay"></p>
                         </div>
@@ -405,7 +458,7 @@
 
         </div>
     </footer>
+    <script src="./js/mobile.js"></script>
 </body>
-<script src="./js/menu.js"></script>
 
 </html>
