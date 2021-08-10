@@ -1182,11 +1182,14 @@ svg {
   background-color: var(--botton-collor);
 }
 
+.footer-form-blok {
+  margin-top: 60px;
+}
+
 @media screen and (min-width: 768px) {
   .footer-form-blok {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
   }
 }
 
