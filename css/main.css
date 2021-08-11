@@ -403,7 +403,7 @@ svg {
 @media screen and (min-width: 768px) {
   .contacts {
     display: block;
-    margin-left: 84px;
+    margin-left: auto;
   }
 }
 
@@ -423,7 +423,6 @@ svg {
   letter-spacing: 0.02em;
   color: var(--names-adress-discriptions);
   margin-left: 10px;
-  margin-top: 10px;
 }
 
 .header__contacts-link:hover, .header__contacts-link:focus {
@@ -434,11 +433,13 @@ svg {
 }
 
 .header__contact-object {
-  margin-top: 10px;
+  margin-left: 0px;
 }
 
-.header__contact-object:not(:last-child) {
-  margin-right: 50px;
+@media screen and (min-width: 1200px) {
+  .header__contact-object:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .header {
@@ -530,8 +531,7 @@ svg {
 }
 
 .mobil-menu__contact {
-  padding-left: 40px;
-  margin-top: 302px;
+  margin-left: 40px;
 }
 
 .mobile-menu__contact-item-tell {
@@ -580,6 +580,18 @@ svg {
   transform: rotate(90deg);
   margin-right: 10px;
   margin-left: 10px;
+}
+
+.conteiner-mob-x {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.mobile-bottom-part {
+  margin-top: 30vh;
 }
 
 .hero {
@@ -842,13 +854,12 @@ svg {
 @media screen and (min-width: 1200px) {
   .our-team {
     padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
 .team-list {
-  padding-top: 50px;
-  padding-bottom: 94px;
-  margin-top: -30px;
+  margin-top: 50px;
 }
 
 @media screen and (min-width: 768px) {
@@ -869,7 +880,6 @@ svg {
   flex-basis: auto;
   border: 1px solid #FFFFFF;
   border-radius: 4px;
-  margin-top: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: #FFFFFF;
 }
@@ -886,7 +896,6 @@ svg {
 @media screen and (min-width: 1200px) {
   .team-list-paragraph {
     flex-basis: calc((100% - 120px) / 4);
-    margin-top: 50px;
   }
 }
 
@@ -956,6 +965,13 @@ svg {
   padding-bottom: 60px;
 }
 
+@media screen and (min-width: 1200px) {
+  .client-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
 .client-section-name {
   font-family: Roboto;
   font-style: normal;
@@ -970,6 +986,7 @@ svg {
 @media screen and (min-width: 1200px) {
   .client-section-name {
     font-size: 33px;
+    margin-bottom: 50px;
   }
 }
 
@@ -1115,6 +1132,7 @@ svg {
   .footer-section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
 
@@ -1143,8 +1161,13 @@ svg {
 
 @media screen and (min-width: 768px) {
   .footer-social-list-link {
-    margin-left: auto;
     margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-social-list-link {
+    margin-left: 70px;
   }
 }
 
@@ -1300,6 +1323,12 @@ svg {
 @media screen and (min-width: 768px) {
   .portfolio-filtr-list {
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-filtr-list {
+    margin-bottom: 34px;
   }
 }
 

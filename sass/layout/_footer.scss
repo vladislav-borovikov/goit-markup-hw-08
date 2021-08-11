@@ -63,6 +63,7 @@
         @media screen and (min-width: 768px){
             display: flex;
             flex-wrap: wrap;
+            justify-content: space-around;
             
         }
         @media screen and (min-width: 1200px){
@@ -82,9 +83,11 @@
 .footer-social-list-link{
     margin-top: 60px;
     @media screen and (min-width: 768px){
-               margin-left: auto;
                margin-top: 0;
            }
+    @media screen and (min-width: 768px){
+        margin-left: 70px;
+    }
 }
 
 .footer-link-logo{
